@@ -1,0 +1,108 @@
+body{
+    text-align: center;  
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+h1 ,h2, h3, h4, p {
+    text-shadow: 0px 0px 10px red;
+}
+
+
+#bff-img{
+    width: 150;
+    border: 8px solid #EFB0C9;
+    border-radius: 50%;
+    
+}
+
+
+#bday-date, #bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center*/
+}     
+
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url(Images/gift-cover.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+
+#gift-img-happy:hover {
+    background-image: url(Images/happy.gif);
+}
+
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+
+#gift-img-hot:hover {
+    background-image: url("Images/hot.gif");
+}
+
+
+#gift-img-genius:hover{
+    background-image: url("Images/genius.gif");
+}
+
+
+#gift-img-badass:hover{
+    background-image: url("Images/badass.gif")
+}
+
+
+#gift-img-Cheers {
+    height: 200px;
+    margin: 15 auto;
+}
+
+
+#gift-img-Cheers:hover {
+    background-image: url("Images/cheers.gif");
+}
+
+
+#footer{
+    font: italic;
+    width: 400px;
+    margin: 40 auto 20;
+}
+
+
+a{
+    color: white;
+}
